@@ -1,3 +1,69 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    height: 100%;
+    background-color: slategray;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: rgba(20,20,20,1)
+}
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.btn {
+    background-color: darkred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 2em;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.error {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 90vw;
+    padding: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 100%;
+    margin: 15px;
+}
+
+#filepath {
+    width: 20em;
+    height: 2em;
+}
+
+#quantity {
+    width: 3em;
+    margin: 2px;
+}

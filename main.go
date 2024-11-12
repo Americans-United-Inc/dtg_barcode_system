@@ -17,9 +17,9 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "dtg_scan_print_system",
-		Width:  1024,
-		Height: 768,
+		Title:  "DTG Scan & Print System",
+		Width:  600,
+		Height: 600,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
